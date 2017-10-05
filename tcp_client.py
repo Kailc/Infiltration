@@ -1,17 +1,19 @@
 import socket
 
-target_host = "www.baidu.com"
-target_port = 80
+target_host = "0.0.0.0"
+target_port = 9999
 get_size = 4096
+message = "GET / HTTP/1.1\r\nHost: baidu.com\r\n\r\n"
 
 # build a socket object
-client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # make a connect
-client.connect((target_host,target_port))
+address_object = (target_host, target_port)
+client.connect(address_object)
 
 # send some data
-client.send("GET / HTTP/1.1\r\nHost: baidu.com\r\n\r\n")
+client.send(message)
 
 # get data
 response = client.recv(get_size)
