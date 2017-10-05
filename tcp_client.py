@@ -20,3 +20,5 @@ print "these are the responses:"
 print ">>>>>>>>>>>>>>"
 
 print response
+
+client.close()
