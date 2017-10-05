@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81188ced-ad8b-4108-9470-5a8f728a5084" name="Default" comment="add udp client code">
+    <list default="true" id="81188ced-ad8b-4108-9470-5a8f728a5084" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/tcp_client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="136" lean-forward="true" selection-start-line="23" selection-start-column="136" selection-end-line="23" selection-end-column="136" />
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1507188927266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add udp client code">
+      <created>1507189567712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507189567712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add udp client code">
+      <created>1507190298619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507190298619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -170,9 +184,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add udp client code" />
     <MESSAGE value="add tcp client code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tcp client code" />
+    <MESSAGE value="add udp client code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add udp client code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -198,7 +212,15 @@
     <entry file="file://$PROJECT_DIR$/tcp_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="136" lean-forward="true" selection-start-line="23" selection-start-column="136" selection-end-line="23" selection-end-column="136" />
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_udp_client_code.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
